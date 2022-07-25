@@ -1,0 +1,20 @@
+.navbar {
+  position: fixed;
+  top: 20px;
+  right: 50px;
+  z-index: 100000;
+  &__right {
+    &__btn {
+      background: none;
+      border: none;
+      .icon {
+        color: black;
+        font-size: 2rem;
+        cursor: pointer;
+        &--white {
+          color: white;
+        }
+      }
+    }
+  }
+}
